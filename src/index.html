@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Meal Mastermind</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">Meal.Mastermind</a>
+        <div class="header-right">
+          <a class="active" href="index.html">HOME</a>
+          <a href="crud.html">CRUD</a>
+          <a href="#about">About</a>
+        </div>
+    </div>
+    
+    <main>
+        <input type="text" id="meal" placeholder="Enter meal name">
+        <button onclick="buttonClicked()">Search</button>
+        <div id="display"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Meal Search App. All rights reserved.</p>
+    </footer>
+
+    <script src="fetchapi.js"></script>
+</body>
+</html>

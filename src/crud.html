@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Meal Mastermind</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">Meal.Mastermind</a>
+        <div class="header-right">
+          <a href="index.html">HOME</a>
+          <a class="active" href="crud.html">CRUD</a>
+          <a href="#about">About</a>
+        </div>
+    </div>
+    
+    <main>
+        <div class="mainWrapper">
+        <form>
+            <div class="form-group">
+              <label>Enter your name: </label>
+              <input id="fileName" type="text" class="form-control">
+            </div>
+    
+            <div class="form-group">
+              <label>Meal list</label>
+              <textarea id="fileContents" class="form-control" rows="5"></textarea>
+    
+            </div>
+        </form>
+          <button id="btnCreate" class="btn btn-default">Create</button>
+          <button id="btnRead" class="btn btn-default">Read</button>
+          <button id="btnUpdate" class="btn btn-default">Update</button>
+          <button id="btnDelete" class="btn btn-default">Delete</button><br>
+          <button id="backButton" onclick="goBack()">Back</button>
+        
+    
+    </main>
+    <footer>
+        <p>&copy; 2023 Meal Search App. All rights reserved.</p>
+    </footer>
+      </div>
+
+    <script src="main.js">
+    </script>
+
+
+</body>
+</html>
